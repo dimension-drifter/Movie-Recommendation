@@ -40,11 +40,6 @@ The model uses an embedding-based neural network:
   - A single scalar value representing the predicted rating.
 
 
-### Interactive Filtering
-Users can:
-- Select genres to narrow down recommendations.
-- Define a range of release years to focus on movies from a specific time period.
-
 ### Recommendations
 The app generates a list of top recommendations based on predicted ratings, providing the following details for each movie:
 - Title
@@ -52,13 +47,5 @@ The app generates a list of top recommendations based on predicted ratings, prov
 - Release year
 - Genres
 
-## Key Classes and Functions
-
-### `ImprovedRecommendationModel`
-Defines the neural network architecture for predicting movie ratings.
-
-### `MovieRecommender`
-Handles the following tasks:
-- Loading the model and preprocessed data.
-- Fetching movie metadata.
-- Generating personalized recommendations.
+## 🔗 Try it out here:  
+[Movie Recommendation System on Hugging Face Spaces](https://huggingface.co/spaces/dimension-drifter/Movie-Recommendation-System)  
